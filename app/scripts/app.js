@@ -18,8 +18,8 @@
              	templateUrl: '/templates/album.html'
          	})
 			.state('collection', {
-				url: '/',
-				templateUrl: '/templates/album.html'
+				url: '/collection',
+				templateUrl: '/templates/collection.html'
 			});
  	}
      
