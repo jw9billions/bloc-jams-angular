@@ -71,7 +71,7 @@
 			var currentSongIndex = getSongIndex(SongPlayer.currentSong);
      		currentSongIndex++;
 			
-			if (currentSongIndex > currentAlbums.songs.length - 1) {
+			if (currentSongIndex > currentAlbum.songs.length - 1) {
 				stopSong(SongPlayer.currentSong);
          		//currentBuzzObject.stop();
          		//SongPlayer.currentSong.playing = null;
