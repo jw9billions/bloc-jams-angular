@@ -91,6 +91,7 @@
 		};
 		 
  		SongPlayer.setCurrentTime = function(time) {
+			console.log(time);
      		if (currentBuzzObject) {
          	currentBuzzObject.setTime(time);
      		}
